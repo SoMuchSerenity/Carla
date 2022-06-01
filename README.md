@@ -14,4 +14,4 @@ Left:
 To-do:  
 
 1. Run manual_control.py
-2. Write a simple script allowing agent to move always forward.
+2. Write a script to allow agent to move always forward
