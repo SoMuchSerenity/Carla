@@ -33,4 +33,18 @@ Deprecated:
 
 1. Install Carla in remote Linux Server
 
+
+## 22/06
+
+Done:
+1. A simple demo showing how to spawn a vehicle with different sensors installed and retrieving data.
+2. Run mannual_control.py
+3. Write a script to allow agent to move always forward
+
+To-do:
+1. Learning RLlib(learning)
+2. Read source code of Carla's RLlib integration(reading)
+3. Try RLlib on gym's car racing
+4. Write a Carla custom enviroment for RLlib
+
  
