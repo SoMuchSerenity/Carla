@@ -47,4 +47,26 @@ To-do:
 3. Try RLlib on gym's car racing
 4. Write a Carla custom enviroment for RLlib
 
- 
+
+## 23/06
+Done: 
+1. Write a Carla custom enviroment for RLlib(partly done)
+
+To-do:
+1. Learning RLlib(learning)
+2. Read source code of Carla's RLlib integration(reading)
+3. Try RLlib on gym's car racing
+4. Investigate syncing
+5. Know how to load data from RAM 
+6. Figure out the best way to train, online/offline/traning data storage
+7. Building value neural network and policy network
+8. Design a proper reward function
+
+Issues fixed:
+https://github.com/opencv/opencv-python/issues/631	No hint provided in Pycharm for the newest version of OpenCV, 4.2.0.32 compatible
+
+https://github.com/carla-simulator/carla/issues/4940	Carla crashes in low quality in towns except for 01. Known issue in Carla.
+
+Issue remained: 
+
+https://github.com/carla-simulator/carla/issues/5502	No rendering option still outputs data
