@@ -70,3 +70,23 @@ https://github.com/carla-simulator/carla/issues/4940	Carla crashes in low qualit
 Issue remained: 
 
 https://github.com/carla-simulator/carla/issues/5502	No rendering option still outputs data
+
+##  15/07
+
+Done:
+1. Write a Carla custom enviroment for RLlib(fully done).
+2. Building value neural network and policy network.
+3. Design a proper reward function.
+
+To-do:
+1. Debug learn() and start to train the agent on laptop, later train in the server.
+2. Replace resnet18 with efficientnet.
+3. Implement Beta Distribution for action space.
+
+Issue fixed:
+
+https://github.com/carla-simulator/carla/issues/5502	Able to using command line to disable rendering. Code in the file does not work.
+
+Issue remained:
+
+https://github.com/DLR-RM/stable-baselines3/issues/961	Invalid index to scalar variable when indexing action space, which is supposed to be np.array and can be indexed.
